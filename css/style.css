@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar .container{
+    width: 92%;
+    margin:auto;
+}
+#navbar nav{
+    background-color: #6F4488;
+    overflow: hidden;
+}
+#navbar nav .logo{
+    float: left;
+}
+#navbar nav .logo a span{
+    color: #DC143C;
+} 
+#navbar nav .logo a{
+     font-size: 35px;
+     font-weight: 600;
+     padding: 20px 0px;
+     display:block ;
+     text-decoration: none;
+     color: white;
+     font-family:  ubuntu,sans-serif;
+}
+#navbar nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+#navbar nav ul li{
+    float: left;
+}
+#navbar nav ul li a{
+    text-decoration: none;
+    font-size: 20px; 
+    color: white;
+    padding: 25px 30px;
+    display: block;
+    font-family:  ubuntu,sans-serif;
+    transition: 0.6s;
+    font-weight:650;
+}
+#navbar nav ul li a:hover{
+    color: #DC143C;
+ 
+}
+#banner{
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    height:700px;
+    background-position: center center;
+    width: 100%;
+}
+#banner p{
+    color: white;
+    padding-top: 190px;
+    padding-left: 100px;
+    font-family: ubuntu,sans-serif;
+    font-size: 27px;
+}
+#banner h1{
+    font-size: 50px;
+    padding-top: 15px;
+    padding-left: 100px;
+    color: white;
+    font-family: ubuntu,sans-serif;
+}
+/* About section start here in css */
+#about{
+    padding-top: 40px;
+    padding-bottom: 40px;
+   
+}
+.container{
+    width: 92%;
+    margin: auto;
+}
+ #about .about-area .header-text h2{
+     font-size: 30px;
+     text-align: center;
+     color:#000;
+     padding-bottom: 20px;
+ }
+ #about .about-area{
+     display: inline-block;
+ }
+#about .about-area .about-img{
+    width: 55%;
+    float: left;
+}
+#about .about-area .about-right{
+    margin-top: 30px;
+
+}
+#about .about-area .about-right p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+#about .about-area .about-right a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 12px 32px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+}
+#about .about-area .about-right button{
+    background-color: #DC143C ;
+    border-radius: 10px;
+    
+}
+#about .about-area .about-right button a:hover{
+    background-color: white;
+    transition: 0.5s;
+    color: crimson;
+}
+/* About section ends here */
+/* Service section starts from here */
+#services{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+    height:500px;
+}
+#services .my-services .header-text h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: ubuntu,sans-serif;
+    color: white;
+    padding: 6px;
+}
+#services .my-services .header-text p{
+    text-align: center;
+    font-size: 20px;
+    font-family: ubuntu,sans-serif;
+    color: white;
+}
+#services .my-services .inbox .box{
+    float: left;
+    overflow: hidden;
+}
+#services .my-services .inbox .box{
+    height: 280px;
+    width: 356px;
+    background-color: #222;
+    margin-top: 60px;
+    margin-left: 50px;
+    display: block;
+    border-radius: 10px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+#services .my-services .inbox .box:hover{
+    background-color: crimson; 
+}
+#services .my-services .inbox .box h1{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 28px;
+}
+#services .my-services .box:hover h1{
+    font-size: 28.5px;
+    transition: 0.4s; 
+}
+#services .my-services .inbox .box p{
+    text-align: center;
+    padding: 12px 12px;
+    font-size: 18px;
+    color: white;
+    font-family: poppins,sans-serif;
+}
+#services .my-services .box:hover p{
+    font-size: 18.5px;
+    transition: 0.4s;
+}
+/* fa code */
+#services .my-services .inbox .box .fa-code{
+    font-size: 62px;
+    color: crimson;
+    margin-top: 37px;
+    margin-left: 140px;
+}
+#services .my-services .inbox .box:hover .fa-code {
+    color: white;
+    transition: 0.6s;
+    font-size: 63px;
+}
+/* paint brush icon */
+#services .my-services .inbox .box .fa-paint-brush{
+    font-size: 62px;
+    color: crimson;
+    margin-top: 37px;
+    margin-left: 140px;
+} 
+#services .my-services .inbox .box:hover .fa-paint-brush{
+    color: white;
+    transition: 0.6s;
+    font-size: 63px;
+}
+/* chart line */
+#services .my-services .inbox .box .fa-chart-line{
+    font-size: 62px;
+    color: crimson;
+    margin-top: 37px;
+    margin-left: 140px;
+}
+#services .my-services .inbox .box:hover .fa-chart-line{
+    color: white;
+    transition: 0.6s;
+    font-size: 63px;
+}
+/* Service section ends here */
+/* Skills section starts from here */
+#skills{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height:400px;   
+}
+#skills .my-skills h2{
+    text-align: center;
+    font-size: 30px;
+    padding:6px;
+    font-weight: 600;
+}
+#skills .my-skills p{
+    text-align: center;
+    font-size: 17px;
+    color: crimson;
+    font-weight: 600;
+}
+#skills .skill-text{
+    width: 40%;
+    float: left;
+}
+#skills .skill-text h1{
+    padding: 10px;
+}
+#skills .skill-text p{
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 20px;
+}
+#skills .skill-text a button{
+    padding: 10px 25px;
+    margin-top: 40px;
+    background-color: crimson;
+    border-radius:10px ;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.6s;
+    border: 3px solid crimson;
+}
+#skills .skill-text a button:hover{
+    background-color: white;
+   color: crimson;
+}
+#skills .left-skill-text{
+    float: left;
+    width: 40%;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+#skills .left-skill-text ul{
+    list-style: none;
+}
+#skills .left-skill-text ul li{
+    font-size: 17px;
+    font-weight: 600;
+    margin: 23px 0px;
+    position: relative;
+}
+#skills .left-skill-text ul li::before{
+    content: '';
+    position: absolute;
+    background-color: #D3D3D3;
+    top: 100%;
+    margin-top: 5px;
+    left: 0;
+    width: 500px;
+    height: 6px;
+    border-radius: 4px;
+}
+ #skills .left-skill-text ul li::after{
+    content: '';
+    position: absolute;
+    background-color: crimson;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 6px;
+    margin-top: 5px;
+    border-radius: 4px;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+ .left-skill-text ul li span{
+    float: right;
+}
+ .left-skill-text ul li:nth-child(1)::after{
+    animation-name: html;
+}
+@keyframes html{
+    to{
+        width: 90%;
+    }
+}
+.left-skill-text ul li:nth-child(2)::after{
+    animation-name: css;
+}
+@keyframes css{
+    to{
+        width: 80%;
+    }
+}
+.left-skill-text ul li:nth-child(3)::after{
+    animation-name: bootstrap;
+}
+@keyframes bootstrap{
+    to{
+        width: 95%;
+    }
+}
+.left-skill-text ul li:nth-child(4)::after{
+    animation-name: js;
+}
+@keyframes js{
+    to{
+        width: 60%;
+    }
+}
+.left-skill-text ul li:nth-child(5)::after{
+    animation-name: jquery;
+}
+@keyframes jquery{
+    to{
+        width: 85%;
+    }
+}
+/* skills section ends here */
+/* my team section starts here */
+#my-team{
+    height: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+}
+#my-team .header-texts h1{
+    padding: 3px;
+    text-align: center;
+    color:white; 
+    font-size: 30px;
+}
+#my-team .header-texts p{
+    text-align: center;
+    font-size: 18px;
+    color: crimson;
+    font-weight: 600;
+}
+#my-team .box{
+    background-color: rgb(63, 62, 62) ;
+    height: 300px;
+    width: 26%;
+    float: left;
+    margin-left: 70px;
+    margin-top: 40px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.6s;
+}
+#my-team .box:hover{
+    background-color: crimson;
+}
+#my-team .box img{
+    height: 145px;
+    width: 145px;
+    margin-top: 25px;
+    border-radius: 50%;
+    border: 5px solid crimson;
+    transition: 0.6s;
+}
+#my-team .box:hover img{
+    border-color: white;
+    height: 150px;
+    width: 150px;
+}
+#my-team .box h2{
+    color: white;
+    margin-top: 6px;
+    font-size: 25px;
+}
+#my-team .box p{
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* my-team section ends here */
+/* contact section starts here */
+#contact{
+    height: 700px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#contact .contact-header-text h1{
+    padding: 3px;
+    text-align: center;
+    color:black; 
+    font-size: 30px;
+}
+#contact .contact-header-text p{
+    text-align: center;
+    font-size: 18px;
+    color: crimson;
+    font-weight: 600;
+}
+#contact .left-side{
+    width: 50%;   
+}
+#contact .left-side h2{
+    padding: 10px;
+    color: crimson;
+    font-size: 25px;
+}
+#contact .left-side p{
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#contact .left-side .icon{
+    float: left;
+}
+#contact .left-side  .icon .fa-user{
+    font-size: 35px;
+    color: crimson;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#contact .left-side .icon-text{
+    float: left;
+    margin-top: 25px;
+    margin-left: 18px;
+
+}
+#contact .left-side .icon-text h3{
+    margin-left: 12px;
+    padding-bottom: 3px;
+}
+
+
+#contact .left-side  .icon .fa-map-marker-alt{
+    font-size: 35px;
+    color: crimson;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#contact .left-side  .icon .fa-envelope{
+    font-size: 35px;
+    color: crimson;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+#contact .right-side .head-text h2{
+    margin-left: 700px;
+}
+#contact .right-side .input-name input{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
